@@ -9,34 +9,68 @@
     <link rel="stylesheet" href="./estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <header class="header">
-		<div class="container">
-		<div class="btn-menu">
-			<label for="btn-menu">☰</label>
-		</div>
-			<div class="logo">
-				<h1><br>     TATTO STUDIO</h1>
-			</div>
-			
-		</div>
-	</header>
-	<div class="capa"></div>
-<!--	--------------->
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
-	<div class="cont-menu">
-		<nav>
-			<a href="#">INICIO</a>
-			<a href="./pages/nosotros.html">NOSOTROS</a>
-			<a href="./pages/galeria.html">GALERÍA</a>
-			<a href="./pages/contacto.html">CONTACTO</a>
-            <a href="./pages/servicios.html">SERVICIOS</a>
-			
-		</nav>
-		<label for="btn-menu">✖️</label>
-	</div>
-</div>
+    <nav>
+        <div class="logo">
+           TATTOO STUDIO
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="#">Home</a></li>
+           <li><a href="./pages/nosotros.html">Nosotros</a></li>
+           <li><a href="./pages/galeria.html">Galeria</a></li>
+           <li><a href="./pages/contacto.html">Contacto </a></li>
+           <li><a href="./pages/servicios.html">Servicios</a></li>
+        </ul>
+     </nav>
+
+	 <main>
+        
+        <img class="manpes" src="./images/buho7.jpg" alt="">
+        <br> <br>
+        <h2 class="h2"></h2>
+        <br> <br>
+    </main>
+
+	<div class="card mb-3"  style="width: 80%; margin: 0 auto; background-color: rgb(51, 142, 122)">
+        <div class="row g-0" >
+          <div class="col-md-4" >
+            <img src="./images/IMG-20220830-WA0027.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" style="color: rgb(0, 0, 0); font-weight: bold; font-size: 34px;">EL MEJOR ESTUDIO</h5>
+              <p class="card-text" style="font-size: 20px;">Tattoo Studio Bory es un estudio de tatuajes ubicado en Guadalajara, Jalisco. Dirigido por Jose Espiritu (BORY), con más de 10 años de experiencia, ofrecemos servicios de tatuajes, perforaciones y láser. En nuestro estudio, hacemos tatuajes personalizados y profesionales para cada cliente.</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+	
+	<footer>
+		
+        <div class="footer-content">
+            <h3> LATINART BY BORY </h3>
+           
+            <ul class="socials">
+                <li><a href="https://web.facebook.com/blackandwhitetattoomx" target=”_blank”><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/punto_tattoo.gdl/" target=”_blank”><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://edgaramaral7.github.io/tatuajes/" target=”_blank”><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=523312206933&text=hola,%20qué%20tal?" target=”_blank”><i class="fa fa-whatsapp"></i></a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; 2022 tattostudio. creado para <span style="color:rgb(47, 219, 159)">LatinArt by Bory</span></p>
+        </div>
+    </footer>
+
+	
 </body>
 </html>
